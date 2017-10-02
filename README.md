@@ -25,7 +25,7 @@ Todos os arquivos GeoJSON de linhas devem ter as seguintes propriedades:
         "closing_date": "data de encerramento de operações comerciais da ferrovia. pode ser apenas YYYY."
         "construction_start_date": "data do começo das obras.",
         "operator": "Operador da ferrovia, como SuperVia, MRS etc.",
-        "tracks": "single se for via simples, double se for via duplicada",
+        "tracks": "single se for via simples, double se for via duplicada, multi se forem várias vias",
         "electrified": "yes ou no",
         "historic": [
             {
