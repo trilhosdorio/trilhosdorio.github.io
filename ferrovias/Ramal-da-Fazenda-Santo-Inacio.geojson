@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Ramal da Fazenda Santo Inácio", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": 1, "extrude": 0, "visibility": 0, "drawOrder": null, "icon": null }, "geometry": { "type": "LineString", "coordinates": [ [ -42.104982102399021, -22.069423433095501, 0.0 ], [ -42.105148028346811, -22.069557070799519, 0.0 ], [ -42.105232889208118, -22.069628080067439, 0.0 ], [ -42.105401145011271, -22.069761316982522, 0.0 ], [ -42.105548739017742, -22.06989266315783, 0.0 ], [ -42.105721005595917, -22.070000195049658, 0.0 ], [ -42.105851014884117, -22.0700850293934, 0.0 ], [ -42.106123221524939, -22.070165508737649, 0.0 ] ] } }
+]
+}

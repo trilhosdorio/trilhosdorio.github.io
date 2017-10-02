@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Porto de Inhaúma", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": 1, "extrude": 0, "visibility": 0, "drawOrder": null, "icon": null }, "geometry": { "type": "LineString", "coordinates": [ [ -43.236570100360147, -22.861872793130029, 0.0 ], [ -43.237222571793978, -22.86204158187164, 0.0 ], [ -43.237996144867203, -22.862204177993409, 0.0 ], [ -43.238317092529599, -22.862251428801699, 0.0 ], [ -43.238545644742509, -22.862196816213679, 0.0 ], [ -43.238793369938847, -22.862076244072121, 0.0 ], [ -43.239045813374588, -22.861955359418008, 0.0 ], [ -43.239369005355272, -22.86178151993715, 0.0 ] ] } }
+]
+}
