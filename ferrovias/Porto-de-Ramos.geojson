@@ -1,7 +1,57 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "Name": "Porto de Ramos", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": 1, "extrude": 0, "visibility": 0, "drawOrder": null, "icon": null }, "geometry": { "type": "LineString", "coordinates": [ [ -43.250664076895049, -22.842916121084471, 0.0 ], [ -43.249624309838268, -22.842066351291379, 0.0 ], [ -43.248851621932857, -22.84139515430579, 0.0 ], [ -43.248440834988749, -22.840680785511321, 0.0 ], [ -43.247816054988213, -22.83933319825757, 0.0 ] ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Porto de Ramos",
+                "description": null,
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": 1,
+                "extrude": 0,
+                "visibility": 0,
+                "drawOrder": null,
+                "icon": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -43.250664076895049,
+                        -22.842916121084471,
+                        0.0
+                    ],
+                    [
+                        -43.249624309838268,
+                        -22.842066351291379,
+                        0.0
+                    ],
+                    [
+                        -43.248851621932857,
+                        -22.84139515430579,
+                        0.0
+                    ],
+                    [
+                        -43.248440834988749,
+                        -22.840680785511321,
+                        0.0
+                    ],
+                    [
+                        -43.247816054988213,
+                        -22.83933319825757,
+                        0.0
+                    ]
+                ]
+            }
+        }
+    ]
 }

@@ -1,7 +1,67 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "Name": "Caminho sem título", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": 1, "extrude": 0, "visibility": 0, "drawOrder": null, "icon": null }, "geometry": { "type": "LineString", "coordinates": [ [ -43.43375970738434, -22.87483672696963, 0.0 ], [ -43.433008094255172, -22.87489785754957, 0.0 ], [ -43.431902039364942, -22.875191094871621, 0.0 ], [ -43.431551464682052, -22.87546812327032, 0.0 ], [ -43.431450987093271, -22.875945785795061, 0.0 ], [ -43.431417271605909, -22.8764541556152, 0.0 ], [ -43.431615452587963, -22.878113140774481, 0.0 ] ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Caminho sem título",
+                "description": null,
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": 1,
+                "extrude": 0,
+                "visibility": 0,
+                "drawOrder": null,
+                "icon": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -43.43375970738434,
+                        -22.87483672696963,
+                        0.0
+                    ],
+                    [
+                        -43.433008094255172,
+                        -22.87489785754957,
+                        0.0
+                    ],
+                    [
+                        -43.431902039364942,
+                        -22.875191094871621,
+                        0.0
+                    ],
+                    [
+                        -43.431551464682052,
+                        -22.87546812327032,
+                        0.0
+                    ],
+                    [
+                        -43.431450987093271,
+                        -22.875945785795061,
+                        0.0
+                    ],
+                    [
+                        -43.431417271605909,
+                        -22.8764541556152,
+                        0.0
+                    ],
+                    [
+                        -43.431615452587963,
+                        -22.878113140774481,
+                        0.0
+                    ]
+                ]
+            }
+        }
+    ]
 }

@@ -1,15 +1,227 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "Name": "Saudade", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": 0, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -44.18990780753051, -22.529904563533972, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Harmonia (PE)", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": 0, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -44.215079807499592, -22.535795695109631, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Santo Antonio (PE)", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": 0, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -44.229272442297152, -22.542643968223778, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Cafundó (PE)", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": 0, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -44.250894548823091, -22.549999424575869, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Astréa (PE)", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": 0, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -44.257692827365297, -22.561404989331841, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Rialto", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": 0, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -44.268714415125942, -22.581180343873999, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Glória (PE)", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": 0, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -44.276206706492808, -22.609973785579999, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Três Barras", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": 0, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -44.288555249244787, -22.648895410828619, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Bananal", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": 0, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -44.319585956197862, -22.679893373241828, 0.0 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Saudade",
+                "description": null,
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": -1,
+                "extrude": 0,
+                "visibility": 0,
+                "drawOrder": null,
+                "icon": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -44.18990780753051,
+                    -22.529904563533972,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Harmonia (PE)",
+                "description": null,
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": -1,
+                "extrude": 0,
+                "visibility": 0,
+                "drawOrder": null,
+                "icon": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -44.215079807499592,
+                    -22.535795695109631,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Santo Antonio (PE)",
+                "description": null,
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": -1,
+                "extrude": 0,
+                "visibility": 0,
+                "drawOrder": null,
+                "icon": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -44.229272442297152,
+                    -22.542643968223778,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Cafundó (PE)",
+                "description": null,
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": -1,
+                "extrude": 0,
+                "visibility": 0,
+                "drawOrder": null,
+                "icon": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -44.250894548823091,
+                    -22.549999424575869,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Astréa (PE)",
+                "description": null,
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": -1,
+                "extrude": 0,
+                "visibility": 0,
+                "drawOrder": null,
+                "icon": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -44.257692827365297,
+                    -22.561404989331841,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Rialto",
+                "description": null,
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": -1,
+                "extrude": 0,
+                "visibility": 0,
+                "drawOrder": null,
+                "icon": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -44.268714415125942,
+                    -22.581180343873999,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Glória (PE)",
+                "description": null,
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": -1,
+                "extrude": 0,
+                "visibility": 0,
+                "drawOrder": null,
+                "icon": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -44.276206706492808,
+                    -22.609973785579999,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Três Barras",
+                "description": null,
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": -1,
+                "extrude": 0,
+                "visibility": 0,
+                "drawOrder": null,
+                "icon": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -44.288555249244787,
+                    -22.648895410828619,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Bananal",
+                "description": null,
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": -1,
+                "extrude": 0,
+                "visibility": 0,
+                "drawOrder": null,
+                "icon": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -44.319585956197862,
+                    -22.679893373241828,
+                    0.0
+                ]
+            }
+        }
+    ]
 }

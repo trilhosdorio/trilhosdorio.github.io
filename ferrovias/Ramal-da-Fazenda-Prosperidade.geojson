@@ -1,7 +1,67 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "Name": "Ramal da Fazenda Prosperidade", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": 1, "extrude": 0, "visibility": 0, "drawOrder": null, "icon": null }, "geometry": { "type": "LineString", "coordinates": [ [ -41.488266617501232, -22.07143180115925, 0.0 ], [ -41.486137647672727, -22.07062650951492, 0.0 ], [ -41.483573275363803, -22.06986416157249, 0.0 ], [ -41.481831511890157, -22.06959503399219, 0.0 ], [ -41.480331672807068, -22.069819078961491, 0.0 ], [ -41.4785415456507, -22.070491409414451, 0.0 ], [ -41.47709006044601, -22.071567246664699, 0.0 ] ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Ramal da Fazenda Prosperidade",
+                "description": null,
+                "timestamp": null,
+                "begin": null,
+                "end": null,
+                "altitudeMode": null,
+                "tessellate": 1,
+                "extrude": 0,
+                "visibility": 0,
+                "drawOrder": null,
+                "icon": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -41.488266617501232,
+                        -22.07143180115925,
+                        0.0
+                    ],
+                    [
+                        -41.486137647672727,
+                        -22.07062650951492,
+                        0.0
+                    ],
+                    [
+                        -41.483573275363803,
+                        -22.06986416157249,
+                        0.0
+                    ],
+                    [
+                        -41.481831511890157,
+                        -22.06959503399219,
+                        0.0
+                    ],
+                    [
+                        -41.480331672807068,
+                        -22.069819078961491,
+                        0.0
+                    ],
+                    [
+                        -41.4785415456507,
+                        -22.070491409414451,
+                        0.0
+                    ],
+                    [
+                        -41.47709006044601,
+                        -22.071567246664699,
+                        0.0
+                    ]
+                ]
+            }
+        }
+    ]
 }
